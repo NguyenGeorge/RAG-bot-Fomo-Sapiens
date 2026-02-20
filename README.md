@@ -31,7 +31,7 @@ graph TD
     R3_Initial --> R3_Sum[Context Summarization]
     R3_Sum --> R3_Refine[Llama-3 FT Persona Translation]
     end
-
+```
 
 ## 🔄 Core Process
 1. **Multi-Query Expansion:** Increases recall by generating semantic variations of the user's query.
